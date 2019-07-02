@@ -19,6 +19,3 @@ DEVICE_PACKAGE_OVERLAYS += device/htc/melsuhl/overlay
 
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/htc/melsuhl/melsuhl-vendor.mk)
-
-# Inherit from melsuhl-common
-$(call inherit-product, device/htc/melsuhl-common/melshul-common.mk)
