@@ -15,6 +15,10 @@
 # limitations under the License.
 #
 
+# Get non-open-source specific aspects
+$(call inherit-product-if-exists, vendor/htc/melsuhl/melsuhl-vendor.mk)
+$(call inherit-product-if-exists, vendor/htc/melsuhl-common/melsuhl-common-vendor.mk)
+
 # Inherit from melsuhl device
 $(call inherit-product, device/htc/melsuhl/melsuhl.mk)
 
