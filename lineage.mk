@@ -16,7 +16,10 @@
 #
 
 # Inherit from melsuhl device
-$(call inherit-product, device/htc/melsuhl/device.mk)
+$(call inherit-product, device/htc/melsuhl/melsuhl.mk)
+
+# Inherit from melsuhl-common
+$(call inherit-product, device/htc/melsuhl-common/melshul-common.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
