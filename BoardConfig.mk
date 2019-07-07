@@ -37,7 +37,7 @@
 TARGET_OTA_ASSERT_DEVICE := htc_melsuhl,melsuhl
 
 # Kernel
-TARGET_KERNEL_CONFIG := melsuhl_defconfig
+TARGET_KERNEL_CONFIG := melstuhl_defconfig
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/htc/melsuhl/bluetooth
